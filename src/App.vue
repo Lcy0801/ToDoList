@@ -1,14 +1,22 @@
 <template>
   <div id="app">
+    <AddTD></AddTD>
   </div>
 </template>
 
 <script>
+import  AddTD  from "./components/AddTD.vue"
+import  ListTD  from "./components/ListTD.vue"
+import  StatesTD from "./components/StatesTD.vue"
 
 export default {
   name: 'App',
   components: {
-  }
+    AddTD,
+    ListTD,
+    StatesTD,
+    AddTD
+}
 }
 </script>
 
